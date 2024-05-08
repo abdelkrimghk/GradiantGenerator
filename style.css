@@ -60,6 +60,7 @@ color: rgb(250, 243, 243);
     mix-blend-mode: color-burn;
     font-weight: 400;
     font-size: 5rem;
+    margin-right: 100px;
     width: 100%;
     text-align: center;
     letter-spacing: 5px;
@@ -67,7 +68,7 @@ color: rgb(250, 243, 243);
 }
 
 .wrapper {
-    width: 700px;
+    width: 100%;
     padding: 20px;
 
     background: #fff;
@@ -178,3 +179,71 @@ display: flex;
     background: #1b74b7;
 
 }
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .options .row {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .buttons button {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .options p {
+      font-size: 1rem;
+    }
+    .select-box {
+      padding: 8px 12px;
+    }
+    .colors input {
+      height: 36px;
+    }
+    .buttons button {
+      padding: 12px 0;
+      font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .select-box {
+      width: 45%;
+      padding: 8px 12px;
+   
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .fa {
+      left: 5%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .buttons button {
+      padding: 8px 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .colors input {
+      height: 32px;
+    }
+    
+    .colors input + input {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  
+
